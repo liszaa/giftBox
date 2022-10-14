@@ -1,0 +1,22 @@
+PODS:
+  - ExytePopupView (1.2.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+
+DEPENDENCIES:
+  - ExytePopupView
+  - FMDB
+
+SPEC REPOS:
+  trunk:
+    - ExytePopupView
+    - FMDB
+
+SPEC CHECKSUMS:
+  ExytePopupView: 9ff6baaa615781b68bc9c509f3b6ff12250554f2
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+
+PODFILE CHECKSUM: bca09e5d6e6b1338f5540fb0f1d4a62acc567fa5
+
+COCOAPODS: 1.11.3

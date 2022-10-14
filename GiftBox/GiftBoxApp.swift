@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct GiftBoxApp: App {
+    var db = DataWrapper()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(db)
         }
     }
 }

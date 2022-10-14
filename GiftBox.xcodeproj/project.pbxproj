@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425F0EF728F6D108007993BC /* GiftType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0EF628F6D108007993BC /* GiftType.swift */; };
+		425F0EF928F6DA04007993BC /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0EF828F6DA04007993BC /* Gift.swift */; };
+		425F0EFB28F82DC6007993BC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0EFA28F82DC6007993BC /* ButtonStyle.swift */; };
+		425F0F0E28F8A571007993BC /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 425F0F0D28F8A571007993BC /* gif.gif */; };
+		425F0F1428F96FF3007993BC /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */; };
 		42FDAD0A28F6C77B00D73B23 /* GiftBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDAD0928F6C77B00D73B23 /* GiftBoxApp.swift */; };
 		42FDAD0C28F6C77B00D73B23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDAD0B28F6C77B00D73B23 /* ContentView.swift */; };
 		42FDAD0E28F6C77C00D73B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FDAD0D28F6C77C00D73B23 /* Assets.xcassets */; };
 		42FDAD1128F6C77C00D73B23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FDAD1028F6C77C00D73B23 /* Preview Assets.xcassets */; };
+		42FDAD1828F6C78D00D73B23 /* DataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDAD1728F6C78D00D73B23 /* DataWrapper.swift */; };
+		71FF526335E4410AE0B95CDA /* Pods_GiftBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07470F40405B760B73868DDE /* Pods_GiftBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07470F40405B760B73868DDE /* Pods_GiftBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC1D6B1E82E21FA56E1E93C /* Pods-GiftBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftBox.release.xcconfig"; path = "Target Support Files/Pods-GiftBox/Pods-GiftBox.release.xcconfig"; sourceTree = "<group>"; };
+		425F0EF628F6D108007993BC /* GiftType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftType.swift; sourceTree = "<group>"; };
+		425F0EF828F6DA04007993BC /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		425F0EFA28F82DC6007993BC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		425F0F0D28F8A571007993BC /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gif.gif; path = ../../Downloads/gif.gif; sourceTree = "<group>"; };
+		425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		42FDAD0628F6C77B00D73B23 /* GiftBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FDAD0928F6C77B00D73B23 /* GiftBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftBoxApp.swift; sourceTree = "<group>"; };
 		42FDAD0B28F6C77B00D73B23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42FDAD0D28F6C77C00D73B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42FDAD1028F6C77C00D73B23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42FDAD1728F6C78D00D73B23 /* DataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWrapper.swift; sourceTree = "<group>"; };
+		CB9D782CD9EED896AD373855 /* Pods-GiftBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftBox.debug.xcconfig"; path = "Target Support Files/Pods-GiftBox/Pods-GiftBox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FF526335E4410AE0B95CDA /* Pods_GiftBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +52,11 @@
 		42FDACFD28F6C77B00D73B23 = {
 			isa = PBXGroup;
 			children = (
+				425F0F0D28F8A571007993BC /* gif.gif */,
 				42FDAD0828F6C77B00D73B23 /* GiftBox */,
 				42FDAD0728F6C77B00D73B23 /* Products */,
+				53A061C81D7E4F1D37C7A41F /* Pods */,
+				FEA96B49836517240A9962EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +75,11 @@
 				42FDAD0B28F6C77B00D73B23 /* ContentView.swift */,
 				42FDAD0D28F6C77C00D73B23 /* Assets.xcassets */,
 				42FDAD0F28F6C77C00D73B23 /* Preview Content */,
+				42FDAD1728F6C78D00D73B23 /* DataWrapper.swift */,
+				425F0EF628F6D108007993BC /* GiftType.swift */,
+				425F0EF828F6DA04007993BC /* Gift.swift */,
+				425F0EFA28F82DC6007993BC /* ButtonStyle.swift */,
+				425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */,
 			);
 			path = GiftBox;
 			sourceTree = "<group>";
@@ -67,6 +92,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		53A061C81D7E4F1D37C7A41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D782CD9EED896AD373855 /* Pods-GiftBox.debug.xcconfig */,
+				0AC1D6B1E82E21FA56E1E93C /* Pods-GiftBox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEA96B49836517240A9962EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07470F40405B760B73868DDE /* Pods_GiftBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FDAD1428F6C77C00D73B23 /* Build configuration list for PBXNativeTarget "GiftBox" */;
 			buildPhases = (
+				5CDA092D8130180B2A0C9283 /* [CP] Check Pods Manifest.lock */,
 				42FDAD0228F6C77B00D73B23 /* Sources */,
 				42FDAD0328F6C77B00D73B23 /* Frameworks */,
 				42FDAD0428F6C77B00D73B23 /* Resources */,
+				652423EE27588338942B5635 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425F0F0E28F8A571007993BC /* gif.gif in Resources */,
 				42FDAD1128F6C77C00D73B23 /* Preview Assets.xcassets in Resources */,
 				42FDAD0E28F6C77C00D73B23 /* Assets.xcassets in Resources */,
 			);
@@ -132,12 +177,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CDA092D8130180B2A0C9283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652423EE27588338942B5635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftBox/Pods-GiftBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftBox/Pods-GiftBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiftBox/Pods-GiftBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42FDAD0228F6C77B00D73B23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				42FDAD0C28F6C77B00D73B23 /* ContentView.swift in Sources */,
+				425F0F1428F96FF3007993BC /* NavigationBarModifier.swift in Sources */,
+				425F0EF928F6DA04007993BC /* Gift.swift in Sources */,
+				425F0EF728F6D108007993BC /* GiftType.swift in Sources */,
+				425F0EFB28F82DC6007993BC /* ButtonStyle.swift in Sources */,
+				42FDAD1828F6C78D00D73B23 /* DataWrapper.swift in Sources */,
 				42FDAD0A28F6C77B00D73B23 /* GiftBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +353,7 @@
 		};
 		42FDAD1528F6C77C00D73B23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9D782CD9EED896AD373855 /* Pods-GiftBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +383,7 @@
 		};
 		42FDAD1628F6C77C00D73B23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC1D6B1E82E21FA56E1E93C /* Pods-GiftBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
