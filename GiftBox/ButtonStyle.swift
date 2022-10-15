@@ -15,7 +15,7 @@ struct GrowingButton: ButtonStyle {
             .fontWeight(.bold)
             .padding(.vertical, 8)
             .padding(.horizontal, 20)
-            .background(Color.white).opacity(0.8)
+            .background(Color.white).opacity(0.9)
             .clipShape(Capsule())
             .clipShape(Capsule())
             .scaleEffect(configuration.isPressed ? 1.2 : 1)

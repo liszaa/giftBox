@@ -12,6 +12,7 @@
 		425F0EFB28F82DC6007993BC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0EFA28F82DC6007993BC /* ButtonStyle.swift */; };
 		425F0F0E28F8A571007993BC /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 425F0F0D28F8A571007993BC /* gif.gif */; };
 		425F0F1428F96FF3007993BC /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */; };
+		425F0F1628FB0734007993BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F0F1528FB0734007993BC /* Extensions.swift */; };
 		42FDAD0A28F6C77B00D73B23 /* GiftBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDAD0928F6C77B00D73B23 /* GiftBoxApp.swift */; };
 		42FDAD0C28F6C77B00D73B23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDAD0B28F6C77B00D73B23 /* ContentView.swift */; };
 		42FDAD0E28F6C77C00D73B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FDAD0D28F6C77C00D73B23 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		425F0EFA28F82DC6007993BC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		425F0F0D28F8A571007993BC /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gif.gif; path = ../../Downloads/gif.gif; sourceTree = "<group>"; };
 		425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		425F0F1528FB0734007993BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		42FDAD0628F6C77B00D73B23 /* GiftBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FDAD0928F6C77B00D73B23 /* GiftBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftBoxApp.swift; sourceTree = "<group>"; };
 		42FDAD0B28F6C77B00D73B23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				425F0EF828F6DA04007993BC /* Gift.swift */,
 				425F0EFA28F82DC6007993BC /* ButtonStyle.swift */,
 				425F0F1328F96FF3007993BC /* NavigationBarModifier.swift */,
+				425F0F1528FB0734007993BC /* Extensions.swift */,
 			);
 			path = GiftBox;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				42FDAD0C28F6C77B00D73B23 /* ContentView.swift in Sources */,
 				425F0F1428F96FF3007993BC /* NavigationBarModifier.swift in Sources */,
 				425F0EF928F6DA04007993BC /* Gift.swift in Sources */,
+				425F0F1628FB0734007993BC /* Extensions.swift in Sources */,
 				425F0EF728F6D108007993BC /* GiftType.swift in Sources */,
 				425F0EFB28F82DC6007993BC /* ButtonStyle.swift in Sources */,
 				42FDAD1828F6C78D00D73B23 /* DataWrapper.swift in Sources */,
